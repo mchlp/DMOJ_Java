@@ -1,4 +1,8 @@
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
+import java.io.BufferedReader;
 
 class DirectedGraph<T> implements Iterable<T> {
 
@@ -31,10 +35,11 @@ public class DMOPC14c2p5 {
     private static DirectedGraph<Integer> graph = new DirectedGraph<>();
     private static double[] probList;
 
-    public static void main (String[] args) {
-        Scanner in = new Scanner(System.in);
-        int numLake = in.nextInt();
-        int numRiver = in.nextInt();
+    public static void main (String[] args) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        String[] tokens = in.readLine().split(" ");
+        int numLake = Integer.parseInt(tokens[0]);
+        int numRiver = Integer.parseInt(tokens[1]);
 
         probList = new double[numLake+1];
 
@@ -43,8 +48,9 @@ public class DMOPC14c2p5 {
         }
 
         for (int i=0; i<numRiver; i++) {
-            int start = in.nextInt();
-            int end = in.nextInt();
+            tokens = in.readLine().split(" ");
+            int start = Integer.parseInt(tokens[0]);
+            int end = Integer.parseInt(tokens[1]);
             graph.addEdge(start, end);
         }
 
