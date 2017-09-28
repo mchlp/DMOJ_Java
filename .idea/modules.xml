@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DMOJ.iml" filepath="$PROJECT_DIR$/DMOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DMOJ_Java.iml" filepath="$PROJECT_DIR$/DMOJ_Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/DMOPC/DMOPC.iml" filepath="$PROJECT_DIR$/DMOPC/DMOPC.iml" />
       <module fileurl="file://$PROJECT_DIR$/DMPG/DMPG.iml" filepath="$PROJECT_DIR$/DMPG/DMPG.iml" />
       <module fileurl="file://$PROJECT_DIR$/ECOO/ECOO.iml" filepath="$PROJECT_DIR$/ECOO/ECOO.iml" />
