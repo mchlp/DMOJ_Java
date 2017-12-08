@@ -3,6 +3,14 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/DMOPC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DMPG" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ECOO" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IOI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Other" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RGPC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TLE" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VMSS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
